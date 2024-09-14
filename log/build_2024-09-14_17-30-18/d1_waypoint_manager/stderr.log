@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:90 (file):
+  file INSTALL cannot find
+  "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/launch": No such
+  file or directory.
+
+[0m

@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (d1_waypoint_manager) JobQueued: {'identifier': 'd1_waypoint_manager', 'dependencies': OrderedDict()}
+[0.000167] (d1_waypoint_manager) JobStarted: {'identifier': 'd1_waypoint_manager'}
+[0.009508] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'cmake'}
+[0.009734] (d1_waypoint_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager', '-DCMAKE_INSTALL_PREFIX=/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager'], 'cwd': '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamaguchi-a'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamaguchi-a/ros2_ws/install/pcd2dpimg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yamaguchi-a'), ('OLDPWD', '/home/yamaguchi-a/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1358'), ('SYSTEMD_EXEC_PID', '1811'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2705'), ('COLCON_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install:/home/yamaguchi-a/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yamaguchi-a'), ('JOURNAL_STREAM', '8:31348'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yamaguchi-a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yamaguchi-a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yamaguchia-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1612,unix/yamaguchia-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', '344754d1a32546f98e89d8fe7f7ffa0c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9549b0ca-8767-488b-b067-76d0d387b29c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble')]), 'shell': False}
+[0.089636] (d1_waypoint_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099062] (-) TimerEvent: {}
+[0.161053] (d1_waypoint_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.170284] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199178] (-) TimerEvent: {}
+[0.240271] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.248680] (d1_waypoint_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.249049] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.249836] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.254473] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299327] (-) TimerEvent: {}
+[0.339827] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.348372] (d1_waypoint_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.348699] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.349237] (d1_waypoint_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.353024] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399412] (-) TimerEvent: {}
+[0.499729] (-) TimerEvent: {}
+[0.511628] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.599852] (-) TimerEvent: {}
+[0.684230] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.691495] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.699953] (-) TimerEvent: {}
+[0.703507] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.720972] (d1_waypoint_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.743009] (d1_waypoint_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800063] (-) TimerEvent: {}
+[0.809718] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.814068] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900180] (-) TimerEvent: {}
+[0.913894] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.943807] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.987900] (d1_waypoint_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.999831] (d1_waypoint_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000244] (-) TimerEvent: {}
+[1.071504] (d1_waypoint_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.072059] (d1_waypoint_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100358] (-) TimerEvent: {}
+[1.147330] (d1_waypoint_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.148827] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200482] (-) TimerEvent: {}
+[1.220509] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.268208] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.300592] (-) TimerEvent: {}
+[1.344305] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.357498] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.374409] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.376021] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.376159] (d1_waypoint_manager) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.400716] (-) TimerEvent: {}
+[1.453183] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.500800] (-) TimerEvent: {}
+[1.523979] (d1_waypoint_manager) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.552706] (d1_waypoint_manager) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.552934] (d1_waypoint_manager) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include\n'}
+[1.553017] (d1_waypoint_manager) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.555159] (d1_waypoint_manager) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.559528] (d1_waypoint_manager) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.559696] (d1_waypoint_manager) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.560649] (d1_waypoint_manager) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.562811] (d1_waypoint_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.576004] (d1_waypoint_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[1.578183] (d1_waypoint_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager\n'}
+[1.588885] (d1_waypoint_manager) CommandEnded: {'returncode': 0}
+[1.589532] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'build'}
+[1.590369] (d1_waypoint_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', '--', '-j8', '-l8'], 'cwd': '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamaguchi-a'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamaguchi-a/ros2_ws/install/pcd2dpimg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yamaguchi-a'), ('OLDPWD', '/home/yamaguchi-a/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1358'), ('SYSTEMD_EXEC_PID', '1811'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2705'), ('COLCON_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install:/home/yamaguchi-a/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yamaguchi-a'), ('JOURNAL_STREAM', '8:31348'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yamaguchi-a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yamaguchi-a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yamaguchia-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1612,unix/yamaguchia-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', '344754d1a32546f98e89d8fe7f7ffa0c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9549b0ca-8767-488b-b067-76d0d387b29c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble')]), 'shell': False}
+[1.600913] (-) TimerEvent: {}
+[1.642162] (d1_waypoint_manager) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o\x1b[0m\n'}
+[1.642389] (d1_waypoint_manager) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o\x1b[0m\n'}
+[1.701044] (-) TimerEvent: {}
+[1.801376] (-) TimerEvent: {}
+[1.901683] (-) TimerEvent: {}
+[2.001950] (-) TimerEvent: {}
+[2.102243] (-) TimerEvent: {}
+[2.202584] (-) TimerEvent: {}
+[2.303060] (-) TimerEvent: {}
+[2.403346] (-) TimerEvent: {}
+[2.503741] (-) TimerEvent: {}
+[2.604159] (-) TimerEvent: {}
+[2.704564] (-) TimerEvent: {}
+[2.804955] (-) TimerEvent: {}
+[2.905318] (-) TimerEvent: {}
+[3.005698] (-) TimerEvent: {}
+[3.106100] (-) TimerEvent: {}
+[3.206485] (-) TimerEvent: {}
+[3.306872] (-) TimerEvent: {}
+[3.407236] (-) TimerEvent: {}
+[3.507574] (-) TimerEvent: {}
+[3.607933] (-) TimerEvent: {}
+[3.708287] (-) TimerEvent: {}
+[3.808655] (-) TimerEvent: {}
+[3.909061] (-) TimerEvent: {}
+[4.009401] (-) TimerEvent: {}
+[4.109779] (-) TimerEvent: {}
+[4.210201] (-) TimerEvent: {}
+[4.310660] (-) TimerEvent: {}
+[4.411012] (-) TimerEvent: {}
+[4.511318] (-) TimerEvent: {}
+[4.611620] (-) TimerEvent: {}
+[4.711924] (-) TimerEvent: {}
+[4.812223] (-) TimerEvent: {}
+[4.912520] (-) TimerEvent: {}
+[5.012257] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KD1WaypointPublisher::D1WaypointPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.012508] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:14:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karea_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.012587] (-) TimerEvent: {}
+[5.012679] (d1_waypoint_manager) StderrLine: {'line': b'   14 |   \x1b[01;31m\x1b[Karea_sub_\x1b[m\x1b[K = create_subscription<std_msgs::msg::String>("area", 10, std::bind(&D1WaypointPublisher::AreaCallback, this, std::placeholders::_1));\n'}
+[5.012757] (d1_waypoint_manager) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.013078] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:14:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.013185] (d1_waypoint_manager) StderrLine: {'line': b'   14 | b_ = create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>("area", 10, std::bind(&D1WaypointPublisher::AreaCallback, this, std::placeholders::_1));\n'}
+[5.013261] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.013437] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[5.013518] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:14:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAreaCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KD1WaypointPublisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.013590] (d1_waypoint_manager) StderrLine: {'line': b'   14 | a", 10, std::bind(&D1WaypointPublisher::\x1b[01;31m\x1b[KAreaCallback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[5.013656] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.013720] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[5.048153] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:45:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwaypoints_file_5_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwaypoints_file_1_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.048358] (d1_waypoint_manager) StderrLine: {'line': b'   45 |   \x1b[01;31m\x1b[Kwaypoints_file_5_\x1b[m\x1b[K = "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/csv/waypoints_b.csv";//\xe8\x87\xaa\xe5\x88\x86\xe3\x81\xa7\xe3\x81\xa4\xe3\x81\x91\xe3\x81\x9f\n'}
+[5.048434] (d1_waypoint_manager) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.048496] (d1_waypoint_manager) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kwaypoints_file_1_\x1b[m\x1b[K\n'}
+[5.055402] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:46:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwaypoints_file_6_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwaypoints_file_1_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.055583] (d1_waypoint_manager) StderrLine: {'line': b'   46 |   \x1b[01;31m\x1b[Kwaypoints_file_6_\x1b[m\x1b[K = "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/csv/waypoints_c.csv";//\xe8\x87\xaa\xe5\x88\x86\xe3\x81\xa7\xe3\x81\xa4\xe3\x81\x91\xe3\x81\x9f\n'}
+[5.055661] (d1_waypoint_manager) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.055726] (d1_waypoint_manager) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kwaypoints_file_1_\x1b[m\x1b[K\n'}
+[5.055903] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:49:129:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.056152] (d1_waypoint_manager) StderrLine: {'line': b'   49 | _, waypoints_file_5_, waypoints_file_6_,\x1b[01;31m\x1b[K}\x1b[m\x1b[K;//\xe8\x87\xaa\xe5\x88\x86\xe3\x81\xa7\xe8\xbf\xbd\xe5\x8a\xa0\n'}
+[5.056229] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.056295] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[5.056355] (d1_waypoint_manager) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:72\x1b[m\x1b[K,\n'}
+[5.056413] (d1_waypoint_manager) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:10\x1b[m\x1b[K,\n'}
+[5.056472] (d1_waypoint_manager) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1\x1b[m\x1b[K:\n'}
+[5.056529] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.056597] (d1_waypoint_manager) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[5.056655] (d1_waypoint_manager) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.056712] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.056771] (d1_waypoint_manager) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[5.056828] (d1_waypoint_manager) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.056885] (d1_waypoint_manager) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[5.056941] (d1_waypoint_manager) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:10\x1b[m\x1b[K,\n'}
+[5.057006] (d1_waypoint_manager) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1\x1b[m\x1b[K:\n'}
+[5.057063] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.057122] (d1_waypoint_manager) StderrLine: {'line': b'  709 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[5.057179] (d1_waypoint_manager) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.057236] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:709:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.057299] (d1_waypoint_manager) StderrLine: {'line': b'  709 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[5.057360] (d1_waypoint_manager) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.057417] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.057476] (d1_waypoint_manager) StderrLine: {'line': b'  730 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[5.057533] (d1_waypoint_manager) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.057588] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:730:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.057670] (d1_waypoint_manager) StderrLine: {'line': b'  730 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[5.057763] (d1_waypoint_manager) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.071358] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kapproach_area_flag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.071530] (d1_waypoint_manager) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[Kapproach_area_flag\x1b[m\x1b[K = 0;\n'}
+[5.071602] (d1_waypoint_manager) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.098730] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::SendWaypointsTimerCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.098888] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:148:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfind_character_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.098959] (d1_waypoint_manager) StderrLine: {'line': b'  148 |     std::cout << "find_character_" << \x1b[01;31m\x1b[Kfind_character_\x1b[m\x1b[K << std::endl;\n'}
+[5.099022] (d1_waypoint_manager) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.111068] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:223:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAPPROACH_AREA\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.111233] (d1_waypoint_manager) StderrLine: {'line': b'  223 |         state = \x1b[01;31m\x1b[KAPPROACH_AREA\x1b[m\x1b[K;\n'}
+[5.111300] (d1_waypoint_manager) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.112699] (-) TimerEvent: {}
+[5.121227] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:228:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAPPROACH_AREA\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.121441] (d1_waypoint_manager) StderrLine: {'line': b'  228 |   case \x1b[01;31m\x1b[KAPPROACH_AREA\x1b[m\x1b[K:\n'}
+[5.121513] (d1_waypoint_manager) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.135966] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:232:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kapproach_area_flag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.136136] (d1_waypoint_manager) StderrLine: {'line': b'  232 |     if (\x1b[01;31m\x1b[Kapproach_area_flag\x1b[m\x1b[K == 0 ){\n'}
+[5.136209] (d1_waypoint_manager) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.147422] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:233:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karea_character_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.147586] (d1_waypoint_manager) StderrLine: {'line': b'  233 |       if(\x1b[01;31m\x1b[Karea_character_\x1b[m\x1b[K.data == "a"){\n'}
+[5.147654] (d1_waypoint_manager) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.159320] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:236:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karea_character_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.159508] (d1_waypoint_manager) StderrLine: {'line': b'  236 |       if(\x1b[01;31m\x1b[Karea_character_\x1b[m\x1b[K.data == "b"){\n'}
+[5.159580] (d1_waypoint_manager) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.171419] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:240:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karea_character_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.171618] (d1_waypoint_manager) StderrLine: {'line': b'  240 |       if(\x1b[01;31m\x1b[Karea_character_\x1b[m\x1b[K.data == "c"){\n'}
+[5.171687] (d1_waypoint_manager) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.185687] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:246:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kapproach_area_flag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.185861] (d1_waypoint_manager) StderrLine: {'line': b'  246 |     \x1b[01;31m\x1b[Kapproach_area_flag\x1b[m\x1b[K = 1;\n'}
+[5.185935] (d1_waypoint_manager) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.200331] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:\x1b[m\x1b[K At global scope:\n'}
+[5.200570] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.200656] (d1_waypoint_manager) StderrLine: {'line': b'  423 | sher::AreaCallback(const std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg){\n'}
+[5.200720] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.200803] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[5.200864] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.200976] (d1_waypoint_manager) StderrLine: {'line': b'  423 | llback(const std_msgs::msg::String::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K){\n'}
+[5.201075] (d1_waypoint_manager) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.201171] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[5.201269] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.201372] (d1_waypoint_manager) StderrLine: {'line': b'  423 | llback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg::String::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K){\n'}
+[5.201463] (d1_waypoint_manager) StderrLine: {'line': b'      |       \x1b[34m\x1b[K~\x1b[m\x1b[K                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[5.201554] (d1_waypoint_manager) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.201619] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.201680] (d1_waypoint_manager) StderrLine: {'line': b'  423 | llback(const std_msgs::msg::String::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K){\n'}
+[5.201768] (d1_waypoint_manager) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.201846] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[5.212843] (-) TimerEvent: {}
+[5.313140] (-) TimerEvent: {}
+[5.413437] (-) TimerEvent: {}
+[5.513731] (-) TimerEvent: {}
+[5.614030] (-) TimerEvent: {}
+[5.714303] (-) TimerEvent: {}
+[5.814585] (-) TimerEvent: {}
+[5.914873] (-) TimerEvent: {}
+[6.015169] (-) TimerEvent: {}
+[6.115500] (-) TimerEvent: {}
+[6.215793] (-) TimerEvent: {}
+[6.316105] (-) TimerEvent: {}
+[6.416434] (-) TimerEvent: {}
+[6.516819] (-) TimerEvent: {}
+[6.617170] (-) TimerEvent: {}
+[6.717542] (-) TimerEvent: {}
+[6.817913] (-) TimerEvent: {}
+[6.918325] (-) TimerEvent: {}
+[7.018702] (-) TimerEvent: {}
+[7.118993] (-) TimerEvent: {}
+[7.219250] (-) TimerEvent: {}
+[7.319541] (-) TimerEvent: {}
+[7.419840] (-) TimerEvent: {}
+[7.520152] (-) TimerEvent: {}
+[7.620472] (-) TimerEvent: {}
+[7.720761] (-) TimerEvent: {}
+[7.821100] (-) TimerEvent: {}
+[7.921419] (-) TimerEvent: {}
+[8.021737] (-) TimerEvent: {}
+[8.122059] (-) TimerEvent: {}
+[8.222404] (-) TimerEvent: {}
+[8.322742] (-) TimerEvent: {}
+[8.423069] (-) TimerEvent: {}
+[8.523400] (-) TimerEvent: {}
+[8.623688] (-) TimerEvent: {}
+[8.724001] (-) TimerEvent: {}
+[8.824320] (-) TimerEvent: {}
+[8.924630] (-) TimerEvent: {}
+[9.024955] (-) TimerEvent: {}
+[9.125339] (-) TimerEvent: {}
+[9.225670] (-) TimerEvent: {}
+[9.325968] (-) TimerEvent: {}
+[9.426253] (-) TimerEvent: {}
+[9.526548] (-) TimerEvent: {}
+[9.626856] (-) TimerEvent: {}
+[9.721350] (d1_waypoint_manager) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/d1_waypoint_manager.dir/build.make:76: CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[9.721623] (d1_waypoint_manager) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/d1_waypoint_manager.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.721894] (d1_waypoint_manager) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[9.724013] (d1_waypoint_manager) CommandEnded: {'returncode': 2}
+[9.726982] (-) TimerEvent: {}
+[9.760350] (d1_waypoint_manager) JobEnded: {'identifier': 'd1_waypoint_manager', 'rc': 2}
+[9.770797] (-) EventReactorShutdown: {}

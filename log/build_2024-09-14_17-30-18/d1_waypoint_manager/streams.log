@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager -- -j8 -l8
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target d1_waypoint_manager[0m
+[0.083s] [ 33%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o[0m
+[0.083s] [ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o[0m
+[19.026s] [100%] [32m[1mLinking CXX executable d1_waypoint_manager[0m
+[20.292s] [100%] Built target d1_waypoint_manager
+[20.304s] Invoked command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager -- -j8 -l8
+[20.340s] Invoking command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager
+[20.348s] -- Install configuration: ""
+[20.348s] -- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager
+[20.354s] -- Set runtime path of "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager" to ""
+[20.355s] -- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include
+[20.355s] -- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager
+[20.355s] -- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp
+[20.355s] -- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager
+[20.355s] [31mCMake Error at cmake_install.cmake:90 (file):
+[20.355s]   file INSTALL cannot find
+[20.355s]   "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/launch": No such
+[20.355s]   file or directory.
+[20.355s] 
+[20.355s] [0m
+[20.357s] Invoked command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager

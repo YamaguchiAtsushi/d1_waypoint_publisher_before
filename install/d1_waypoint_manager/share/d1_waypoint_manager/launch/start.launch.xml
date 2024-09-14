@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+
+<launch>
+
+    <include file="$(find-pkg-share turtlebot3_gazebo)/launch/empty_world.launch.py" />
+    <include file="$(find-pkg-share turtlebot3_navigation)/launch/turtlebot3_navigation.launch" />
+
+    <node pkg="nav2_send_goal" exec="nav2_send_goal" output="screen" />
+
+</launch>

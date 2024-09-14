@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000780] (d1_waypoint_manager) JobQueued: {'identifier': 'd1_waypoint_manager', 'dependencies': OrderedDict()}
+[0.000823] (d1_waypoint_manager) JobStarted: {'identifier': 'd1_waypoint_manager'}
+[0.009423] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'cmake'}
+[0.010237] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'build'}
+[0.011108] (d1_waypoint_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', '--', '-j8', '-l8'], 'cwd': '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamaguchi-a'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamaguchi-a/ros2_ws/install/pcd2dpimg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yamaguchi-a'), ('OLDPWD', '/home/yamaguchi-a/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1358'), ('SYSTEMD_EXEC_PID', '1811'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2705'), ('COLCON_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install:/home/yamaguchi-a/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yamaguchi-a'), ('JOURNAL_STREAM', '8:31348'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yamaguchi-a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yamaguchi-a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yamaguchia-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1612,unix/yamaguchia-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', '344754d1a32546f98e89d8fe7f7ffa0c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9549b0ca-8767-488b-b067-76d0d387b29c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble')]), 'shell': False}
+[0.058870] (d1_waypoint_manager) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target d1_waypoint_manager\x1b[0m\n'}
+[0.083291] (d1_waypoint_manager) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o\x1b[0m\n'}
+[0.083534] (d1_waypoint_manager) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o\x1b[0m\n'}
+[0.099533] (-) TimerEvent: {}
+[0.199841] (-) TimerEvent: {}
+[0.304006] (-) TimerEvent: {}
+[0.404316] (-) TimerEvent: {}
+[0.504593] (-) TimerEvent: {}
+[0.604911] (-) TimerEvent: {}
+[0.705207] (-) TimerEvent: {}
+[0.805511] (-) TimerEvent: {}
+[0.905809] (-) TimerEvent: {}
+[1.006110] (-) TimerEvent: {}
+[1.106424] (-) TimerEvent: {}
+[1.206716] (-) TimerEvent: {}
+[1.307022] (-) TimerEvent: {}
+[1.407339] (-) TimerEvent: {}
+[1.507656] (-) TimerEvent: {}
+[1.607971] (-) TimerEvent: {}
+[1.708330] (-) TimerEvent: {}
+[1.808624] (-) TimerEvent: {}
+[1.908944] (-) TimerEvent: {}
+[2.009276] (-) TimerEvent: {}
+[2.109602] (-) TimerEvent: {}
+[2.209982] (-) TimerEvent: {}
+[2.310340] (-) TimerEvent: {}
+[2.410650] (-) TimerEvent: {}
+[2.510985] (-) TimerEvent: {}
+[2.611401] (-) TimerEvent: {}
+[2.711829] (-) TimerEvent: {}
+[2.812135] (-) TimerEvent: {}
+[2.912430] (-) TimerEvent: {}
+[3.012773] (-) TimerEvent: {}
+[3.113087] (-) TimerEvent: {}
+[3.213471] (-) TimerEvent: {}
+[3.313856] (-) TimerEvent: {}
+[3.414232] (-) TimerEvent: {}
+[3.514604] (-) TimerEvent: {}
+[3.614957] (-) TimerEvent: {}
+[3.715335] (-) TimerEvent: {}
+[3.815708] (-) TimerEvent: {}
+[3.916050] (-) TimerEvent: {}
+[4.016430] (-) TimerEvent: {}
+[4.116785] (-) TimerEvent: {}
+[4.217176] (-) TimerEvent: {}
+[4.317537] (-) TimerEvent: {}
+[4.417907] (-) TimerEvent: {}
+[4.518257] (-) TimerEvent: {}
+[4.618604] (-) TimerEvent: {}
+[4.718972] (-) TimerEvent: {}
+[4.819341] (-) TimerEvent: {}
+[4.919723] (-) TimerEvent: {}
+[5.020048] (-) TimerEvent: {}
+[5.120381] (-) TimerEvent: {}
+[5.220725] (-) TimerEvent: {}
+[5.321038] (-) TimerEvent: {}
+[5.421339] (-) TimerEvent: {}
+[5.521647] (-) TimerEvent: {}
+[5.621952] (-) TimerEvent: {}
+[5.722255] (-) TimerEvent: {}
+[5.822557] (-) TimerEvent: {}
+[5.922854] (-) TimerEvent: {}
+[6.023149] (-) TimerEvent: {}
+[6.123445] (-) TimerEvent: {}
+[6.223742] (-) TimerEvent: {}
+[6.324060] (-) TimerEvent: {}
+[6.424374] (-) TimerEvent: {}
+[6.524663] (-) TimerEvent: {}
+[6.624980] (-) TimerEvent: {}
+[6.725276] (-) TimerEvent: {}
+[6.825568] (-) TimerEvent: {}
+[6.925847] (-) TimerEvent: {}
+[7.026118] (-) TimerEvent: {}
+[7.126379] (-) TimerEvent: {}
+[7.226700] (-) TimerEvent: {}
+[7.327010] (-) TimerEvent: {}
+[7.427357] (-) TimerEvent: {}
+[7.527694] (-) TimerEvent: {}
+[7.628038] (-) TimerEvent: {}
+[7.728344] (-) TimerEvent: {}
+[7.828635] (-) TimerEvent: {}
+[7.928956] (-) TimerEvent: {}
+[8.029236] (-) TimerEvent: {}
+[8.129521] (-) TimerEvent: {}
+[8.229844] (-) TimerEvent: {}
+[8.330226] (-) TimerEvent: {}
+[8.430620] (-) TimerEvent: {}
+[8.531026] (-) TimerEvent: {}
+[8.631415] (-) TimerEvent: {}
+[8.731854] (-) TimerEvent: {}
+[8.832285] (-) TimerEvent: {}
+[8.932733] (-) TimerEvent: {}
+[9.033184] (-) TimerEvent: {}
+[9.133635] (-) TimerEvent: {}
+[9.234075] (-) TimerEvent: {}
+[9.334476] (-) TimerEvent: {}
+[9.434769] (-) TimerEvent: {}
+[9.535085] (-) TimerEvent: {}
+[9.635405] (-) TimerEvent: {}
+[9.735736] (-) TimerEvent: {}
+[9.836090] (-) TimerEvent: {}
+[9.936448] (-) TimerEvent: {}
+[10.036762] (-) TimerEvent: {}
+[10.137115] (-) TimerEvent: {}
+[10.237532] (-) TimerEvent: {}
+[10.337916] (-) TimerEvent: {}
+[10.438227] (-) TimerEvent: {}
+[10.538558] (-) TimerEvent: {}
+[10.638921] (-) TimerEvent: {}
+[10.739278] (-) TimerEvent: {}
+[10.839695] (-) TimerEvent: {}
+[10.940081] (-) TimerEvent: {}
+[11.040491] (-) TimerEvent: {}
+[11.140882] (-) TimerEvent: {}
+[11.241179] (-) TimerEvent: {}
+[11.341473] (-) TimerEvent: {}
+[11.441815] (-) TimerEvent: {}
+[11.542210] (-) TimerEvent: {}
+[11.642520] (-) TimerEvent: {}
+[11.742839] (-) TimerEvent: {}
+[11.843095] (-) TimerEvent: {}
+[11.943398] (-) TimerEvent: {}
+[12.043700] (-) TimerEvent: {}
+[12.144051] (-) TimerEvent: {}
+[12.244372] (-) TimerEvent: {}
+[12.344659] (-) TimerEvent: {}
+[12.444956] (-) TimerEvent: {}
+[12.545236] (-) TimerEvent: {}
+[12.645547] (-) TimerEvent: {}
+[12.745846] (-) TimerEvent: {}
+[12.846155] (-) TimerEvent: {}
+[12.946502] (-) TimerEvent: {}
+[13.046843] (-) TimerEvent: {}
+[13.147187] (-) TimerEvent: {}
+[13.247550] (-) TimerEvent: {}
+[13.347879] (-) TimerEvent: {}
+[13.448198] (-) TimerEvent: {}
+[13.548507] (-) TimerEvent: {}
+[13.648825] (-) TimerEvent: {}
+[13.749171] (-) TimerEvent: {}
+[13.849495] (-) TimerEvent: {}
+[13.949809] (-) TimerEvent: {}
+[14.050095] (-) TimerEvent: {}
+[14.150422] (-) TimerEvent: {}
+[14.250752] (-) TimerEvent: {}
+[14.351062] (-) TimerEvent: {}
+[14.451389] (-) TimerEvent: {}
+[14.551706] (-) TimerEvent: {}
+[14.652037] (-) TimerEvent: {}
+[14.752345] (-) TimerEvent: {}
+[14.852663] (-) TimerEvent: {}
+[14.952972] (-) TimerEvent: {}
+[15.053284] (-) TimerEvent: {}
+[15.153573] (-) TimerEvent: {}
+[15.253874] (-) TimerEvent: {}
+[15.354156] (-) TimerEvent: {}
+[15.454435] (-) TimerEvent: {}
+[15.554716] (-) TimerEvent: {}
+[15.654993] (-) TimerEvent: {}
+[15.755275] (-) TimerEvent: {}
+[15.855555] (-) TimerEvent: {}
+[15.955837] (-) TimerEvent: {}
+[16.056099] (-) TimerEvent: {}
+[16.156374] (-) TimerEvent: {}
+[16.256660] (-) TimerEvent: {}
+[16.356942] (-) TimerEvent: {}
+[16.457226] (-) TimerEvent: {}
+[16.557510] (-) TimerEvent: {}
+[16.657801] (-) TimerEvent: {}
+[16.758077] (-) TimerEvent: {}
+[16.858352] (-) TimerEvent: {}
+[16.958597] (-) TimerEvent: {}
+[17.058846] (-) TimerEvent: {}
+[17.159145] (-) TimerEvent: {}
+[17.259484] (-) TimerEvent: {}
+[17.359750] (-) TimerEvent: {}
+[17.460006] (-) TimerEvent: {}
+[17.560332] (-) TimerEvent: {}
+[17.660687] (-) TimerEvent: {}
+[17.761031] (-) TimerEvent: {}
+[17.861354] (-) TimerEvent: {}
+[17.961637] (-) TimerEvent: {}
+[18.063293] (-) TimerEvent: {}
+[18.164864] (-) TimerEvent: {}
+[18.265232] (-) TimerEvent: {}
+[18.365624] (-) TimerEvent: {}
+[18.465920] (-) TimerEvent: {}
+[18.566278] (-) TimerEvent: {}
+[18.666649] (-) TimerEvent: {}
+[18.766993] (-) TimerEvent: {}
+[18.867387] (-) TimerEvent: {}
+[18.967834] (-) TimerEvent: {}
+[19.027125] (d1_waypoint_manager) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable d1_waypoint_manager\x1b[0m\n'}
+[19.067994] (-) TimerEvent: {}
+[19.168372] (-) TimerEvent: {}
+[19.268835] (-) TimerEvent: {}
+[19.369272] (-) TimerEvent: {}
+[19.469694] (-) TimerEvent: {}
+[19.570125] (-) TimerEvent: {}
+[19.670514] (-) TimerEvent: {}
+[19.770886] (-) TimerEvent: {}
+[19.871198] (-) TimerEvent: {}
+[19.971504] (-) TimerEvent: {}
+[20.071818] (-) TimerEvent: {}
+[20.172109] (-) TimerEvent: {}
+[20.272423] (-) TimerEvent: {}
+[20.292842] (d1_waypoint_manager) StdoutLine: {'line': b'[100%] Built target d1_waypoint_manager\n'}
+[20.304427] (d1_waypoint_manager) CommandEnded: {'returncode': 0}
+[20.330435] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'install'}
+[20.340198] (d1_waypoint_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager'], 'cwd': '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamaguchi-a'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamaguchi-a/ros2_ws/install/pcd2dpimg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yamaguchi-a'), ('OLDPWD', '/home/yamaguchi-a/turtlebot3_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1358'), ('SYSTEMD_EXEC_PID', '1811'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2705'), ('COLCON_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install:/home/yamaguchi-a/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yamaguchi-a'), ('JOURNAL_STREAM', '8:31348'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yamaguchi-a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yamaguchi-a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yamaguchia-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1612,unix/yamaguchia-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', '344754d1a32546f98e89d8fe7f7ffa0c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9549b0ca-8767-488b-b067-76d0d387b29c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble')]), 'shell': False}
+[20.348193] (d1_waypoint_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.348480] (d1_waypoint_manager) StdoutLine: {'line': b'-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager\n'}
+[20.355108] (d1_waypoint_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager" to ""\n'}
+[20.355349] (d1_waypoint_manager) StdoutLine: {'line': b'-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include\n'}
+[20.355426] (d1_waypoint_manager) StdoutLine: {'line': b'-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager\n'}
+[20.355495] (d1_waypoint_manager) StdoutLine: {'line': b'-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp\n'}
+[20.355596] (d1_waypoint_manager) StdoutLine: {'line': b'-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager\n'}
+[20.355719] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:90 (file):\n'}
+[20.355803] (d1_waypoint_manager) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[20.355867] (d1_waypoint_manager) StderrLine: {'line': b'  "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/launch": No such\n'}
+[20.355929] (d1_waypoint_manager) StderrLine: {'line': b'  file or directory.\n'}
+[20.356153] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[20.356216] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[0m\n'}
+[20.357721] (d1_waypoint_manager) CommandEnded: {'returncode': 1}
+[20.372534] (-) TimerEvent: {}
+[20.391364] (d1_waypoint_manager) JobEnded: {'identifier': 'd1_waypoint_manager', 'rc': 1}
+[20.402090] (-) EventReactorShutdown: {}

@@ -1,0 +1,150 @@
+[0.012s] Invoking command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager -DCMAKE_INSTALL_PREFIX=/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.254s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.353s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.684s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.691s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.703s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.810s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.814s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.914s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.000s] -- Looking for pthread.h
+[1.071s] -- Looking for pthread.h - found
+[1.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.149s] -- Found Threads: TRUE  
+[1.220s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.268s] -- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.344s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.357s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.374s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.376s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.376s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.453s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.524s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.553s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.553s] -- Configured cppcheck include dirs: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include
+[1.553s] -- Configured cppcheck exclude dirs and/or files: 
+[1.555s] -- Added test 'lint_cmake' to check CMake code style
+[1.559s] -- Added test 'uncrustify' to check C / C++ code style
+[1.560s] -- Configured uncrustify additional arguments: 
+[1.561s] -- Added test 'xmllint' to check XML markup files
+[1.563s] -- Configuring done
+[1.576s] -- Generating done
+[1.578s] -- Build files have been written to: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager
+[1.589s] Invoked command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager -DCMAKE_INSTALL_PREFIX=/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager
+[1.590s] Invoking command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager -- -j8 -l8
+[1.642s] [ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o[0m
+[1.642s] [ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o[0m
+[5.012s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:[m[K In constructor ‘[01m[KD1WaypointPublisher::D1WaypointPublisher()[m[K’:
+[5.012s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:14:3:[m[K [01;31m[Kerror: [m[K‘[01m[Karea_sub_[m[K’ was not declared in this scope
+[5.013s]    14 |   [01;31m[Karea_sub_[m[K = create_subscription<std_msgs::msg::String>("area", 10, std::bind(&D1WaypointPublisher::AreaCallback, this, std::placeholders::_1));
+[5.013s]       |   [01;31m[K^~~~~~~~~[m[K
+[5.013s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:14:50:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[5.013s]    14 | b_ = create_subscription<std_msgs::msg::[01;31m[KString[m[K>("area", 10, std::bind(&D1WaypointPublisher::AreaCallback, this, std::placeholders::_1));
+[5.013s]       |                                         [01;31m[K^~~~~~[m[K
+[5.013s] 
+[5.013s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:14:102:[m[K [01;31m[Kerror: [m[K‘[01m[KAreaCallback[m[K’ is not a member of ‘[01m[KD1WaypointPublisher[m[K’
+[5.013s]    14 | a", 10, std::bind(&D1WaypointPublisher::[01;31m[KAreaCallback[m[K, this, std::placeholders::_1));
+[5.014s]       |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[5.014s] 
+[5.048s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_file_5_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoints_file_1_[m[K’?
+[5.048s]    45 |   [01;31m[Kwaypoints_file_5_[m[K = "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/csv/waypoints_b.csv";//自分でつけた
+[5.048s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.048s]       |   [32m[Kwaypoints_file_1_[m[K
+[5.055s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_file_6_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoints_file_1_[m[K’?
+[5.055s]    46 |   [01;31m[Kwaypoints_file_6_[m[K = "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/csv/waypoints_c.csv";//自分でつけた
+[5.056s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.056s]       |   [32m[Kwaypoints_file_1_[m[K
+[5.056s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:49:129:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[5.056s]    49 | _, waypoints_file_5_, waypoints_file_6_,[01;31m[K}[m[K;//自分で追加
+[5.056s]       |                                         [01;31m[K^[m[K
+[5.056s] 
+[5.056s] In file included from [01m[K/usr/include/c++/11/vector:72[m[K,
+[5.056s]                  from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:10[m[K,
+[5.056s]                  from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1[m[K:
+[5.056s] [01m[K/usr/include/c++/11/bits/vector.tcc:198:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[5.056s]   198 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[5.057s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.057s] [01m[K/usr/include/c++/11/bits/vector.tcc:199:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[5.057s]   199 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[5.057s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.057s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[5.057s]                  from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:10[m[K,
+[5.057s]                  from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1[m[K:
+[5.057s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[5.057s]   709 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[5.057s]       |       [01;36m[K^~~~~~~~[m[K
+[5.057s] [01m[K/usr/include/c++/11/bits/stl_vector.h:709:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >&&[m[K’
+[5.057s]   709 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[5.057s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[5.057s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >][m[K’
+[5.057s]   730 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[5.057s]       |       [01;36m[K^~~~~~~~[m[K
+[5.057s] [01m[K/usr/include/c++/11/bits/stl_vector.h:730:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<std::__cxx11::basic_string<char> >[m[K’
+[5.058s]   730 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[5.058s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.071s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:54:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproach_area_flag[m[K’ was not declared in this scope
+[5.071s]    54 |   [01;31m[Kapproach_area_flag[m[K = 0;
+[5.071s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.099s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:[m[K In member function ‘[01m[Kvoid D1WaypointPublisher::SendWaypointsTimerCallback()[m[K’:
+[5.099s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:148:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kfind_character_[m[K’ was not declared in this scope
+[5.099s]   148 |     std::cout << "find_character_" << [01;31m[Kfind_character_[m[K << std::endl;
+[5.099s]       |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.111s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:223:17:[m[K [01;31m[Kerror: [m[K‘[01m[KAPPROACH_AREA[m[K’ was not declared in this scope
+[5.111s]   223 |         state = [01;31m[KAPPROACH_AREA[m[K;
+[5.111s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[5.121s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:228:8:[m[K [01;31m[Kerror: [m[K‘[01m[KAPPROACH_AREA[m[K’ was not declared in this scope
+[5.121s]   228 |   case [01;31m[KAPPROACH_AREA[m[K:
+[5.121s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[5.136s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:232:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproach_area_flag[m[K’ was not declared in this scope
+[5.136s]   232 |     if ([01;31m[Kapproach_area_flag[m[K == 0 ){
+[5.136s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.147s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:233:10:[m[K [01;31m[Kerror: [m[K‘[01m[Karea_character_[m[K’ was not declared in this scope
+[5.147s]   233 |       if([01;31m[Karea_character_[m[K.data == "a"){
+[5.148s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.159s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:236:10:[m[K [01;31m[Kerror: [m[K‘[01m[Karea_character_[m[K’ was not declared in this scope
+[5.159s]   236 |       if([01;31m[Karea_character_[m[K.data == "b"){
+[5.159s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.171s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:240:10:[m[K [01;31m[Kerror: [m[K‘[01m[Karea_character_[m[K’ was not declared in this scope
+[5.171s]   240 |       if([01;31m[Karea_character_[m[K.data == "c"){
+[5.172s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:246:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproach_area_flag[m[K’ was not declared in this scope
+[5.186s]   246 |     [01;31m[Kapproach_area_flag[m[K = 1;
+[5.186s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.200s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:[m[K At global scope:
+[5.200s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:61:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[5.201s]   423 | sher::AreaCallback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg){
+[5.201s]       |                                         [01;31m[K^~~~~~[m[K
+[5.201s] 
+[5.201s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:79:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[5.201s]   423 | llback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K){
+[5.201s]       |                                               [01;31m[K^~~[m[K
+[5.201s] 
+[5.201s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[5.201s]   423 | llback[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K){
+[5.201s]       |       [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+[5.201s]       |                                              [32m[K)[m[K
+[5.201s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:423:79:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+[5.202s]   423 | llback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K){
+[5.202s]       |                                               [01;31m[K^~~[m[K
+[5.202s] 
+[9.721s] gmake[2]: *** [CMakeFiles/d1_waypoint_manager.dir/build.make:76: CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o] エラー 1
+[9.722s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/d1_waypoint_manager.dir/all] エラー 2
+[9.722s] gmake: *** [Makefile:146: all] エラー 2
+[9.724s] Invoked command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager -- -j8 -l8

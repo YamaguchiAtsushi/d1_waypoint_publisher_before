@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target d1_waypoint_manager[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable d1_waypoint_manager[0m
+[100%] Built target d1_waypoint_manager
+-- Install configuration: ""
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager
+-- Set runtime path of "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager" to ""
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager
