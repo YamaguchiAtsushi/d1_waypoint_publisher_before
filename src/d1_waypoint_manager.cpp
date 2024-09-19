@@ -12,12 +12,12 @@ D1WaypointPublisher::D1WaypointPublisher() : rclcpp::Node("d1_waypoint_manager")
   twist_pub_ = create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   pose_sub_ = create_subscription<geometry_msgs::msg::PoseStamped>("pose", 10, std::bind(&D1WaypointPublisher::PoseCallback, this, std::placeholders::_1));
   area_sub_ = create_subscription<std_msgs::msg::String>("area", 10, std::bind(&D1WaypointPublisher::AreaCallback, this, std::placeholders::_1));
-
   odom_sub_ = create_subscription<nav_msgs::msg::Odometry>("odom", 10, std::bind(&D1WaypointPublisher::OdomCallback, this, std::placeholders::_1));
 
 
   std::string action_server_name;
 
+/*
   if (follow_type_ == THROUGH_POSES_MODE){
     action_server_name = "navigate_through_poses";
     nav_through_poses_action_client_ =
@@ -37,6 +37,7 @@ D1WaypointPublisher::D1WaypointPublisher() : rclcpp::Node("d1_waypoint_manager")
   send_goal_options_.feedback_callback = std::bind(&D1WaypointPublisher::NavThroughPosesFeedbackCallback, this, std::placeholders::_1, std::placeholders::_2);
   send_goal_options_.result_callback = std::bind(&D1WaypointPublisher::NavThroughPosesResultCallback, this, std::placeholders::_1);
   send_goal_options_.goal_response_callback = std::bind(&D1WaypointPublisher::NavThroughPosesGoalResponseCallback, this, std::placeholders::_1);
+*/
 
   waypoints_file_1_ = "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/csv/waypoints_1.csv";//自分でつけた
   waypoints_file_2_ = "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/csv/waypoints_2.csv";//自分でつけた
@@ -58,6 +59,7 @@ D1WaypointPublisher::D1WaypointPublisher() : rclcpp::Node("d1_waypoint_manager")
   current_pose_.position.y = 0.0;
   current_yaw_ = 0.0;
 
+  timer_ = create_wall_timer(100ms, std::bind(&D1WaypointPublisher::SendWaypointsTimerCallback, this));
   ReadWaypointsFromCSV(csv_file_[0], waypoints_);
   start_index_ = (size_t)start_index_int_;
   start_index_ = 1; //自分でつけた
@@ -67,6 +69,7 @@ D1WaypointPublisher::D1WaypointPublisher() : rclcpp::Node("d1_waypoint_manager")
     return;
   }
 
+/*
   if (is_action_server_ready_){
      timer_ = create_wall_timer(100ms, std::bind(&D1WaypointPublisher::SendWaypointsTimerCallback, this));
   }else{
@@ -77,6 +80,8 @@ D1WaypointPublisher::D1WaypointPublisher() : rclcpp::Node("d1_waypoint_manager")
                   action_server_name.c_str());
     return;
   }
+*/
+
 }
 
 geometry_msgs::msg::Quaternion rpyYawToQuat(double yaw){
@@ -101,23 +106,27 @@ std::vector<std::string> D1WaypointPublisher::getCSVLine(std::string& input, cha
   return result;
 }
 
-void D1WaypointPublisher::ReadWaypointsFromCSV(std::string& csv_file, std::vector<waypoint_info>& waypoints)
+void D1WaypointPublisher::ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoint>& waypoints_)
 {
   //std::cout << "3" << std::endl;
 
   std::ifstream ifs(csv_file);
   std::string line;
-  waypoint_info waypoint;
+
 
   while (getline(ifs, line))
   {
     id_++;
     std::vector<std::string> strvec = getCSVLine(line, ',');
-    waypoint.poses.position.x = std::stod(strvec.at(0));
-    waypoint.poses.position.y = std::stod(strvec.at(1));
-    waypoint.poses.position.z = 0.0;
-    waypoint.poses.orientation = rpyYawToQuat(std::stod(strvec.at(2))/180.0*M_PI);
-    waypoint.will_stop = ("1"==strvec.at(5));
+    waypoint.pose.position.x = std::stod(strvec.at(0));
+    waypoint.pose.position.y = std::stod(strvec.at(1));
+    waypoint.pose.position.z = 0.0;
+    waypoint.pose.orientation = rpyYawToQuat(std::stod(strvec.at(2))/180.0*M_PI);
+    //waypoint.will_stop = ("1"==strvec.at(5));
+
+    waypoints_.push_back(waypoint);
+
+    
 
     // std::cout << "-------------------------------------" << std::endl;
     // std::cout << "waypoint ID: " << id << std::endl;
@@ -126,7 +135,7 @@ void D1WaypointPublisher::ReadWaypointsFromCSV(std::string& csv_file, std::vecto
     // std::cout << "rot yaw: " << std::stod(strvec.at(2)) << std::endl;
     // std::cout << "will stop: "<< std::boolalpha <<  ("1"==strvec.at(5)) << std::endl;
 
-    waypoints.push_back(waypoint);
+    
   }
 }
 
@@ -271,66 +280,20 @@ void D1WaypointPublisher::SendWaypointsTimerCallback(){
   }
 }
 
-size_t D1WaypointPublisher::SendWaypointsOnce(size_t sending_index){
-  //std::cout << "5" << std::endl;
-    std::cout << "sending_index" << sending_index << std::endl;
-
-
-  size_t i;
-  size_t next_index;
-  nav2_msgs::action::NavigateThroughPoses::Goal nav_through_poses_goal;
-  nav2_msgs::action::FollowWaypoints::Goal follow_waypoints_goal;
-  for(i = sending_index; i<waypoints_.size(); i++){
-    //std::cout << "5-1" << std::endl;
-
-    geometry_msgs::msg::PoseStamped goal_msg;
-    goal_msg.header.stamp = this->now();
-    goal_msg.header.frame_id = "map";
-    goal_msg.pose=waypoints_[i].poses;
-    nav_through_poses_goal.poses.push_back(goal_msg);
-    follow_waypoints_goal.poses.push_back(goal_msg);
-    if(waypoints_[i].will_stop)break;
-  }
-  next_index = i + 1;
-  if (follow_type_ == THROUGH_POSES_MODE){
-    is_goal_achieved_ = false;
-    is_goal_accepted_ = false;
-    is_aborted_ = false;
-
-    std::chrono::milliseconds server_timeout(1000);
-    future_goal_handle_ = nav_through_poses_action_client_->async_send_goal(nav_through_poses_goal, send_goal_options_);
-    RCLCPP_INFO(this->get_logger(),
-              "[nav_through_poses]: Sending a path of %zu waypoints:", nav_through_poses_goal.poses.size());
-  }
-
-  if (follow_type_ == FOLLOW_WAYPOINTS_MODE){
-    auto send_goal_options = rclcpp_action::Client<nav2_msgs::action::FollowWaypoints>::SendGoalOptions();
-    send_goal_options.result_callback = [this](auto) { follow_waypoints_goal_handle_.reset(); };
-
-    std::chrono::milliseconds server_timeout(1000);
-    auto future_goal_handle =
-        follow_waypoints_action_client_->async_send_goal(follow_waypoints_goal, send_goal_options);
-    if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future_goal_handle, server_timeout) !=
-        rclcpp::FutureReturnCode::SUCCESS)
-    {
-      RCLCPP_ERROR(this->get_logger(), "Send goal call failed");
-      //return;
+size_t D1WaypointPublisher::SendWaypointsOnce(size_t sending_index) {
+    if (sending_index < waypoints_.size()) {
+        tsukutsuku2_msgs::msg::Waypoints waypoints_msg;
+        waypoints_msg.waypoints = {waypoints_[sending_index]}; // 送信する waypoint を設定
+        publisher_->publish(waypoints_msg);
     }
-    // Get the goal handle and save so that we can check on completion in the timer callback
-    follow_waypoints_goal_handle_ = future_goal_handle.get();
-    if (!follow_waypoints_goal_handle_)
-    {
-      RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
-    }
-    RCLCPP_INFO(this->get_logger(),
-                "[follow_waypoints]: Sending a path of %zu waypoints:", follow_waypoints_goal.poses.size());
-  }
-  return next_index;
+
+    // 送信したインデックスを返す
+    return sending_index + 1;
 }
 
 
 
-
+/*
 void D1WaypointPublisher::NavThroughPosesResultCallback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>::WrappedResult & result){
   //std::cout << "6" << std::endl;
 
@@ -356,6 +319,9 @@ void D1WaypointPublisher::NavThroughPosesResultCallback(const rclcpp_action::Cli
       return;
   }
 }
+*/
+
+/*
 void D1WaypointPublisher::NavThroughPosesGoalResponseCallback(std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>> future){
   //std::cout << "7" << std::endl;
 
@@ -368,6 +334,9 @@ void D1WaypointPublisher::NavThroughPosesGoalResponseCallback(std::shared_ptr<rc
   }
   is_goal_accepted_ = true; 
 }
+*/
+
+/*
 
 void D1WaypointPublisher::NavThroughPosesFeedbackCallback(const GoalHandleNavigateNavigateThroughPoses::SharedPtr, const std::shared_ptr<const NavigateThroughPoses::Feedback> feedback){
   //std::cout << "8" << std::endl;
@@ -375,6 +344,7 @@ void D1WaypointPublisher::NavThroughPosesFeedbackCallback(const GoalHandleNaviga
   number_of_poses_remaining_ = feedback->number_of_poses_remaining;
   //RCLCPP_INFO(get_logger(), "number of poses remaining = %zu", (size_t)feedback->number_of_poses_remaining);
 }
+*/
 
 void D1WaypointPublisher::PoseCallback(const geometry_msgs::msg::PoseStamped::SharedPtr msg){
 

@@ -9,6 +9,8 @@
 #include <sstream>
 #include <vector>
 #include <chrono>
+#include <functional>
+#include <memory>
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "nav2_msgs/action/navigate_through_poses.hpp"
@@ -27,6 +29,8 @@
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <tf2/transform_datatypes.h>
 #include "tf2/LinearMath/Quaternion.h"
+
+#include "tsukutsuku2_msgs/msg/waypoints.hpp"
 
 #define FOLLOW_WAYPOINTS_MODE 1
 #define THROUGH_POSES_MODE 0
@@ -67,7 +71,8 @@ public:
 
 private:
   std::vector<std::string> getCSVLine(std::string& input, char delimiter);
-  void ReadWaypointsFromCSV(std::string& csv_file, std::vector<waypoint_info>& waypoints);
+  void ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoint>& waypoints_);
+  //void ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints>& waypoints_);
   void resultCallback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>::WrappedResult & result);
   void NavThroughPosesResultCallback(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>::WrappedResult & result);
   void NavThroughPosesGoalResponseCallback(std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>> future);
@@ -80,6 +85,9 @@ private:
 
 private:
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr twist_pub_;
+  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr d1_waypoint_pub_;
+  rclcpp::Publisher<tsukutsuku2_msgs::msg::Waypoints>::SharedPtr publisher_;
+
   rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr pose_sub_;
   rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_sub_;
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr area_sub_;
@@ -109,7 +117,11 @@ private:
   rclcpp_action::ClientGoalHandle<nav2_msgs::action::FollowWaypoints>::SharedPtr follow_waypoints_goal_handle_;
   std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>>> future_goal_handle_;
 
-  std::vector<waypoint_info> waypoints_;
+  tsukutsuku2_msgs::msg::Waypoint waypoint;
+  std::vector<tsukutsuku2_msgs::msg::Waypoint> waypoints_; 
+  tsukutsuku2_msgs::msg::Waypoints waypoints_msg;
+  //auto waypoints_msg = tsukutsuku2_msgs::msg::Waypoints();
+  
   size_t start_index_;
 
   int find_point_;//初期化してない

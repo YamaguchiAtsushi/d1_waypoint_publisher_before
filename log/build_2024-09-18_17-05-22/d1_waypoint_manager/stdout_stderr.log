@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target d1_waypoint_manager[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable d1_waypoint_manager[0m
+[100%] Built target d1_waypoint_manager
+-- Install configuration: ""
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager
+-- Set runtime path of "/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager" to ""
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/lib/d1_waypoint_manager/d1_waypoint_manager
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/launch
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/launch/start.launch.xml
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/ament_index/resource_index/package_run_dependencies/d1_waypoint_manager
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/ament_index/resource_index/parent_prefix_path/d1_waypoint_manager
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/environment/ament_prefix_path.sh
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/environment/path.sh
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/environment/path.dsv
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/local_setup.bash
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/local_setup.sh
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/local_setup.zsh
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/local_setup.dsv
+-- Installing: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/package.dsv
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/ament_index/resource_index/packages/d1_waypoint_manager
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/cmake/d1_waypoint_managerConfig.cmake
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/cmake/d1_waypoint_managerConfig-version.cmake
+-- Up-to-date: /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/install/d1_waypoint_manager/share/d1_waypoint_manager/package.xml

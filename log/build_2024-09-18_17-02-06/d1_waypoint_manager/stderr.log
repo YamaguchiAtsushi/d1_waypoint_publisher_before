@@ -1,0 +1,69 @@
+In file included from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1[m[K:
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 | ector<tsukutsuku2_msgs::msg::Waypoints& [01;31m[Kwaypoints_[m[K);
+      |                                         [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:52:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   74 | WaypointsFromCSV(std::string& csv_file, [01;31m[Kstd[m[K::vector<tsukutsuku2_msgs::msg::Waypoints& waypoints_);
+      |                                         [01;31m[K^~~[m[K
+
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:96:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   74 | :vector<tsukutsuku2_msgs::msg::Waypoints[01;31m[K&[m[K waypoints_);
+      |                                         [01;31m[K^[m[K
+
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_[m[K’ was not declared in this scope
+   74 | ector<tsukutsuku2_msgs::msg::Waypoints& [01;31m[Kwaypoints_[m[K);
+      |                                         [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:108:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K)[m[K’ token
+   74 | ctor<tsukutsuku2_msgs::msg::Waypoints& waypoints_[01;31m[K)[m[K;
+      |                                                  [01;31m[K^[m[K
+
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:52:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::vector[m[K’ not permitted in this context
+   74 | WaypointsFromCSV(std::string& csv_file, [01;31m[Kstd[m[K::vector<tsukutsuku2_msgs::msg::Waypoints& waypoints_);
+      |                                         [01;31m[K^~~[m[K
+
+In file included from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager_node.cpp:1[m[K:
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |   void ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints& [01;31m[Kwaypoints_[m[K);
+      |                                                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:52:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   74 |   void ReadWaypointsFromCSV(std::string& csv_file, [01;31m[Kstd[m[K::vector<tsukutsuku2_msgs::msg::Waypoints& waypoints_);
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:96:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K&[m[K’ token
+   74 |   void ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints[01;31m[K&[m[K waypoints_);
+      |                                                                                                [01;31m[K^[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_[m[K’ was not declared in this scope
+   74 |   void ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints& [01;31m[Kwaypoints_[m[K);
+      |                                                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:108:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K)[m[K’ token
+   74 |   void ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints& waypoints_[01;31m[K)[m[K;
+      |                                                                                                            [01;31m[K^[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:52:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::vector[m[K’ not permitted in this context
+   74 |   void ReadWaypointsFromCSV(std::string& csv_file, [01;31m[Kstd[m[K::vector<tsukutsuku2_msgs::msg::Waypoints& waypoints_);
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+  109 | void [01;31m[KD1WaypointPublisher[m[K::ReadWaypointsFromCSV(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints>& waypoints_)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1[m[K:
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(...)[m[K’
+   74 |   void [01;36m[KReadWaypointsFromCSV[m[K(std::string& csv_file, std::vector<tsukutsuku2_msgs::msg::Waypoints& waypoints_);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:65:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass D1WaypointPublisher[m[K’ defined here
+   65 | class [01;36m[KD1WaypointPublisher[m[K : public rclcpp::Node{
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/d1_waypoint_manager.dir/build.make:90: CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o] エラー 1
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/d1_waypoint_manager.dir/build.make:76: CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/d1_waypoint_manager.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

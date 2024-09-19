@@ -17,6 +17,7 @@ find_package(nav2_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
+find_package(tsukutsuku2_msgs REQUIRED)
 
 
 
@@ -30,7 +31,7 @@ include_directories(
 #add_executable(nav2_send_goal src/nav2_send_goal.cpp)
 
 ament_auto_add_executable(d1_waypoint_manager src/d1_waypoint_manager.cpp src/d1_waypoint_manager_node.cpp)
-ament_target_dependencies(d1_waypoint_manager rclcpp rclcpp_action nav2_msgs nav_msgs tf2 tf2_geometry_msgs)
+ament_target_dependencies(d1_waypoint_manager rclcpp rclcpp_action nav2_msgs nav_msgs tf2 tf2_geometry_msgs tsukutsuku2_msgs)
 
 
 install(TARGETS

@@ -1,0 +1,246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000426] (d1_waypoint_manager) JobQueued: {'identifier': 'd1_waypoint_manager', 'dependencies': OrderedDict()}
+[0.000771] (d1_waypoint_manager) JobStarted: {'identifier': 'd1_waypoint_manager'}
+[0.012122] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'cmake'}
+[0.013270] (d1_waypoint_manager) JobProgress: {'identifier': 'd1_waypoint_manager', 'progress': 'build'}
+[0.014203] (d1_waypoint_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', '--', '-j8', '-l8'], 'cwd': '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yamaguchi-a'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yamaguchi-a/ros2_ws/install/tsukutsuku2_msgs/lib:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/yamaguchi-a'), ('OLDPWD', '/home/yamaguchi-a'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1380'), ('SYSTEMD_EXEC_PID', '1897'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2964'), ('COLCON_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install:/home/yamaguchi-a/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yamaguchi-a'), ('JOURNAL_STREAM', '8:32400'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yamaguchi-a'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/yamaguchi-a/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yamaguchia-ThinkPad-X1-Carbon-7th:@/tmp/.ICE-unix/1628,unix/yamaguchia-ThinkPad-X1-Carbon-7th:/tmp/.ICE-unix/1628'), ('INVOCATION_ID', 'cd1dde4634294454bea81e0a266f3394'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/turtlebot3_ws/install/d1_waypoint_manager:/home/yamaguchi-a/ros2_ws/install/tsukutsuku2_msgs_pubsub:/home/yamaguchi-a/ros2_ws/install/tsukutsuku2_msgs:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9549b0ca-8767-488b-b067-76d0d387b29c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yamaguchi-a/ros2_ws/install/tsukutsuku2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_simulations:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_gazebo:/home/yamaguchi-a/turtlebot3_ws/install/turtlebot3_fake_node:/home/yamaguchi-a/turtlebot3_ws/install/nav2_send_goal:/home/yamaguchi-a/turtlebot3_ws/install/d1_waypoint_manager:/home/yamaguchi-a/ros2_ws/install/tsukutsuku2_msgs_pubsub:/home/yamaguchi-a/ros2_ws/install/tsukutsuku2_msgs:/home/yamaguchi-a/ros2_ws/install/timer:/home/yamaguchi-a/ros2_ws/install/pcd2dpimg:/opt/ros/humble')]), 'shell': False}
+[0.072940] (d1_waypoint_manager) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target d1_waypoint_manager\x1b[0m\n'}
+[0.099592] (-) TimerEvent: {}
+[0.101925] (d1_waypoint_manager) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o\x1b[0m\n'}
+[0.102138] (d1_waypoint_manager) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o\x1b[0m\n'}
+[0.199729] (-) TimerEvent: {}
+[0.300133] (-) TimerEvent: {}
+[0.400533] (-) TimerEvent: {}
+[0.500958] (-) TimerEvent: {}
+[0.601328] (-) TimerEvent: {}
+[0.701735] (-) TimerEvent: {}
+[0.802159] (-) TimerEvent: {}
+[0.902623] (-) TimerEvent: {}
+[1.003015] (-) TimerEvent: {}
+[1.103453] (-) TimerEvent: {}
+[1.203911] (-) TimerEvent: {}
+[1.304400] (-) TimerEvent: {}
+[1.404937] (-) TimerEvent: {}
+[1.505447] (-) TimerEvent: {}
+[1.605983] (-) TimerEvent: {}
+[1.706582] (-) TimerEvent: {}
+[1.807233] (-) TimerEvent: {}
+[1.907678] (-) TimerEvent: {}
+[2.008179] (-) TimerEvent: {}
+[2.108655] (-) TimerEvent: {}
+[2.209134] (-) TimerEvent: {}
+[2.309551] (-) TimerEvent: {}
+[2.409963] (-) TimerEvent: {}
+[2.510351] (-) TimerEvent: {}
+[2.610881] (-) TimerEvent: {}
+[2.711386] (-) TimerEvent: {}
+[2.811892] (-) TimerEvent: {}
+[2.912356] (-) TimerEvent: {}
+[3.012871] (-) TimerEvent: {}
+[3.113473] (-) TimerEvent: {}
+[3.213973] (-) TimerEvent: {}
+[3.314556] (-) TimerEvent: {}
+[3.415048] (-) TimerEvent: {}
+[3.515783] (-) TimerEvent: {}
+[3.616295] (-) TimerEvent: {}
+[3.716716] (-) TimerEvent: {}
+[3.817305] (-) TimerEvent: {}
+[3.917884] (-) TimerEvent: {}
+[4.018453] (-) TimerEvent: {}
+[4.118983] (-) TimerEvent: {}
+[4.219476] (-) TimerEvent: {}
+[4.320066] (-) TimerEvent: {}
+[4.420693] (-) TimerEvent: {}
+[4.521286] (-) TimerEvent: {}
+[4.621801] (-) TimerEvent: {}
+[4.722265] (-) TimerEvent: {}
+[4.822773] (-) TimerEvent: {}
+[4.923246] (-) TimerEvent: {}
+[5.023687] (-) TimerEvent: {}
+[5.124137] (-) TimerEvent: {}
+[5.224568] (-) TimerEvent: {}
+[5.324973] (-) TimerEvent: {}
+[5.425392] (-) TimerEvent: {}
+[5.525802] (-) TimerEvent: {}
+[5.626340] (-) TimerEvent: {}
+[5.726895] (-) TimerEvent: {}
+[5.827439] (-) TimerEvent: {}
+[5.927966] (-) TimerEvent: {}
+[6.028553] (-) TimerEvent: {}
+[6.129210] (-) TimerEvent: {}
+[6.229731] (-) TimerEvent: {}
+[6.330236] (-) TimerEvent: {}
+[6.430750] (-) TimerEvent: {}
+[6.531308] (-) TimerEvent: {}
+[6.631855] (-) TimerEvent: {}
+[6.732385] (-) TimerEvent: {}
+[6.775261] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KD1WaypointPublisher::D1WaypointPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.775760] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:63:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.776070] (d1_waypoint_manager) StderrLine: {'line': b'   63 |   ReadWaypointsFromCSV(csv_file_[0], \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K);\n'}
+[6.776379] (d1_waypoint_manager) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.776641] (d1_waypoint_manager) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.776900] (d1_waypoint_manager) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\n'}
+[6.777170] (d1_waypoint_manager) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1\x1b[m\x1b[K:\n'}
+[6.777439] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.777714] (d1_waypoint_manager) StderrLine: {'line': b'   74 | \x1b[01;36m\x1b[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_\x1b[m\x1b[K);\n'}
+[6.777980] (d1_waypoint_manager) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.778229] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.786370] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.787105] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:127:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >::push_back(tsukutsuku2_msgs::msg::Waypoint&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.787453] (d1_waypoint_manager) StderrLine: {'line': b'  127 |     \x1b[01;31m\x1b[Kwaypoints_.push_back(waypoint)\x1b[m\x1b[K;\n'}
+[6.787722] (d1_waypoint_manager) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.787988] (d1_waypoint_manager) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[6.788275] (d1_waypoint_manager) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:10\x1b[m\x1b[K,\n'}
+[6.788562] (d1_waypoint_manager) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1\x1b[m\x1b[K:\n'}
+[6.788821] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1187:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >; _Alloc = std::allocator<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::value_type = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.789114] (d1_waypoint_manager) StderrLine: {'line': b' 1187 |       \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const value_type& __x)\n'}
+[6.789379] (d1_waypoint_manager) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.789635] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1187:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktsukutsuku2_msgs::msg::Waypoint\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Ktsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst value_type&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.789937] (d1_waypoint_manager) StderrLine: {'line': b' 1187 |       push_back(\x1b[01;36m\x1b[Kconst value_type& __x\x1b[m\x1b[K)\n'}
+[6.790198] (d1_waypoint_manager) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.790457] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1203:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >; _Alloc = std::allocator<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::value_type = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.790806] (d1_waypoint_manager) StderrLine: {'line': b' 1203 |       \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(value_type&& __x)\n'}
+[6.791082] (d1_waypoint_manager) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.791336] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1203:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktsukutsuku2_msgs::msg::Waypoint\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Ktsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >::value_type&&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Ktsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[6.791641] (d1_waypoint_manager) StderrLine: {'line': b' 1203 |       push_back(\x1b[01;36m\x1b[Kvalue_type&& __x\x1b[m\x1b[K)\n'}
+[6.791881] (d1_waypoint_manager) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.792355] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::SendWaypointsTimerCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.792632] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:187:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.792897] (d1_waypoint_manager) StderrLine: {'line': b'  187 |      ReadWaypointsFromCSV(csv_file_[1], \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K);\n'}
+[6.793378] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.793642] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.793899] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\n'}
+[6.794161] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.794419] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.794682] (d1_waypoint_manager) StderrLine: {'line': b'  109 | \x1b[01;36m\x1b[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_\x1b[m\x1b[K)\n'}
+[6.794929] (d1_waypoint_manager) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.795180] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.795428] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:205:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.795685] (d1_waypoint_manager) StderrLine: {'line': b'  205 |      ReadWaypointsFromCSV(csv_file_[2], \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K);\n'}
+[6.795922] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.796162] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.796650] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\n'}
+[6.796943] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.797197] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.797475] (d1_waypoint_manager) StderrLine: {'line': b'  109 | \x1b[01;36m\x1b[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_\x1b[m\x1b[K)\n'}
+[6.797917] (d1_waypoint_manager) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.798173] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.798421] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:243:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.798881] (d1_waypoint_manager) StderrLine: {'line': b'  243 |      ReadWaypointsFromCSV(csv_file_[3], \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K);\n'}
+[6.799149] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.799401] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.799677] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\n'}
+[6.799937] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.800192] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.800499] (d1_waypoint_manager) StderrLine: {'line': b'  109 | \x1b[01;36m\x1b[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_\x1b[m\x1b[K)\n'}
+[6.800765] (d1_waypoint_manager) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.801022] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.801272] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:247:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.801534] (d1_waypoint_manager) StderrLine: {'line': b'  247 |      ReadWaypointsFromCSV(csv_file_[4], \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K);\n'}
+[6.801781] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.802032] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.802286] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\n'}
+[6.802577] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.802824] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.803103] (d1_waypoint_manager) StderrLine: {'line': b'  109 | \x1b[01;36m\x1b[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_\x1b[m\x1b[K)\n'}
+[6.803359] (d1_waypoint_manager) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.803610] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.803864] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:251:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.804144] (d1_waypoint_manager) StderrLine: {'line': b'  251 |      ReadWaypointsFromCSV(csv_file_[5], \x1b[01;31m\x1b[Kwaypoints_\x1b[m\x1b[K);\n'}
+[6.804433] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.804692] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.804908] (d1_waypoint_manager) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >\x1b[m\x1b[K\n'}
+[6.805134] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.805333] (d1_waypoint_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.805542] (d1_waypoint_manager) StderrLine: {'line': b'  109 | \x1b[01;36m\x1b[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_\x1b[m\x1b[K)\n'}
+[6.805742] (d1_waypoint_manager) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.805939] (d1_waypoint_manager) StderrLine: {'line': b'\n'}
+[6.832553] (-) TimerEvent: {}
+[6.933040] (-) TimerEvent: {}
+[7.033517] (-) TimerEvent: {}
+[7.134007] (-) TimerEvent: {}
+[7.234501] (-) TimerEvent: {}
+[7.335020] (-) TimerEvent: {}
+[7.435627] (-) TimerEvent: {}
+[7.536178] (-) TimerEvent: {}
+[7.636768] (-) TimerEvent: {}
+[7.737188] (-) TimerEvent: {}
+[7.837633] (-) TimerEvent: {}
+[7.938128] (-) TimerEvent: {}
+[8.038601] (-) TimerEvent: {}
+[8.139034] (-) TimerEvent: {}
+[8.239497] (-) TimerEvent: {}
+[8.339869] (-) TimerEvent: {}
+[8.440273] (-) TimerEvent: {}
+[8.540651] (-) TimerEvent: {}
+[8.641092] (-) TimerEvent: {}
+[8.741581] (-) TimerEvent: {}
+[8.841952] (-) TimerEvent: {}
+[8.942384] (-) TimerEvent: {}
+[9.042798] (-) TimerEvent: {}
+[9.143328] (-) TimerEvent: {}
+[9.243714] (-) TimerEvent: {}
+[9.344223] (-) TimerEvent: {}
+[9.444665] (-) TimerEvent: {}
+[9.545037] (-) TimerEvent: {}
+[9.645343] (-) TimerEvent: {}
+[9.745664] (-) TimerEvent: {}
+[9.845989] (-) TimerEvent: {}
+[9.946352] (-) TimerEvent: {}
+[10.046676] (-) TimerEvent: {}
+[10.147030] (-) TimerEvent: {}
+[10.247369] (-) TimerEvent: {}
+[10.347753] (-) TimerEvent: {}
+[10.448128] (-) TimerEvent: {}
+[10.548445] (-) TimerEvent: {}
+[10.648784] (-) TimerEvent: {}
+[10.749118] (-) TimerEvent: {}
+[10.849613] (-) TimerEvent: {}
+[10.950014] (-) TimerEvent: {}
+[11.050487] (-) TimerEvent: {}
+[11.150818] (-) TimerEvent: {}
+[11.251146] (-) TimerEvent: {}
+[11.351457] (-) TimerEvent: {}
+[11.451811] (-) TimerEvent: {}
+[11.552139] (-) TimerEvent: {}
+[11.652481] (-) TimerEvent: {}
+[11.752830] (-) TimerEvent: {}
+[11.853174] (-) TimerEvent: {}
+[11.953495] (-) TimerEvent: {}
+[12.053838] (-) TimerEvent: {}
+[12.154245] (-) TimerEvent: {}
+[12.254593] (-) TimerEvent: {}
+[12.354915] (-) TimerEvent: {}
+[12.455354] (-) TimerEvent: {}
+[12.555794] (-) TimerEvent: {}
+[12.656196] (-) TimerEvent: {}
+[12.756622] (-) TimerEvent: {}
+[12.857037] (-) TimerEvent: {}
+[12.957537] (-) TimerEvent: {}
+[13.058026] (-) TimerEvent: {}
+[13.158454] (-) TimerEvent: {}
+[13.258837] (-) TimerEvent: {}
+[13.359234] (-) TimerEvent: {}
+[13.459608] (-) TimerEvent: {}
+[13.560014] (-) TimerEvent: {}
+[13.660401] (-) TimerEvent: {}
+[13.760766] (-) TimerEvent: {}
+[13.861144] (-) TimerEvent: {}
+[13.961522] (-) TimerEvent: {}
+[14.061887] (-) TimerEvent: {}
+[14.162258] (-) TimerEvent: {}
+[14.262660] (-) TimerEvent: {}
+[14.363102] (-) TimerEvent: {}
+[14.463535] (-) TimerEvent: {}
+[14.563970] (-) TimerEvent: {}
+[14.664545] (-) TimerEvent: {}
+[14.764918] (-) TimerEvent: {}
+[14.865299] (-) TimerEvent: {}
+[14.965617] (-) TimerEvent: {}
+[15.055748] (d1_waypoint_manager) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/d1_waypoint_manager.dir/build.make:76: CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[15.056006] (d1_waypoint_manager) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/d1_waypoint_manager.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[15.056258] (d1_waypoint_manager) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[15.059078] (d1_waypoint_manager) CommandEnded: {'returncode': 2}
+[15.065722] (-) TimerEvent: {}
+[15.106737] (d1_waypoint_manager) JobEnded: {'identifier': 'd1_waypoint_manager', 'rc': 2}
+[15.117471] (-) EventReactorShutdown: {}

@@ -1,0 +1,89 @@
+[0.012s] Invoking command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target d1_waypoint_manager[0m
+[0.086s] [ 33%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o[0m
+[0.087s] [ 66%] [32mBuilding CXX object CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager_node.cpp.o[0m
+[5.173s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:[m[K In constructor ‘[01m[KD1WaypointPublisher::D1WaypointPublisher()[m[K’:
+[5.173s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:63:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&[m[K’
+[5.174s]    63 |   ReadWaypointsFromCSV(csv_file_[0], [01;31m[Kwaypoints_[m[K);
+[5.174s]       |                                      [01;31m[K^~~~~~~~~~[m[K
+[5.174s]       |                                      [01;31m[K|[m[K
+[5.174s]       |                                      [01;31m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K
+[5.175s] In file included from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1[m[K:
+[5.175s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:74:99:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+[5.175s]    74 | [01;36m[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_[m[K);
+[5.176s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.176s] 
+[5.186s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:[m[K In member function ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’:
+[5.186s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:127:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >::push_back(tsukutsuku2_msgs::msg::Waypoint&)[m[K’
+[5.187s]   127 |     [01;31m[Kwaypoints_.push_back(waypoint)[m[K;
+[5.187s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.187s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[5.187s]                  from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/include/d1_waypoint_manager/d1_waypoint_manager.hpp:10[m[K,
+[5.188s]                  from [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:1[m[K:
+[5.188s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1187:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >; _Alloc = std::allocator<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::value_type = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >][m[K’
+[5.188s]  1187 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+[5.189s]       |       [01;36m[K^~~~~~~~~[m[K
+[5.189s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1187:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktsukutsuku2_msgs::msg::Waypoint[m[K’ {aka ‘[01m[Ktsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >[m[K’} to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >&[m[K’}
+[5.190s]  1187 |       push_back([01;36m[Kconst value_type& __x[m[K)
+[5.190s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.191s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1203:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >; _Alloc = std::allocator<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::value_type = tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >][m[K’
+[5.191s]  1203 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+[5.191s]       |       [01;36m[K^~~~~~~~~[m[K
+[5.192s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1203:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktsukutsuku2_msgs::msg::Waypoint[m[K’ {aka ‘[01m[Ktsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >::value_type&&[m[K’ {aka ‘[01m[Ktsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> >&&[m[K’}
+[5.192s]  1203 |       push_back([01;36m[Kvalue_type&& __x[m[K)
+[5.192s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[5.193s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:[m[K In member function ‘[01m[Kvoid D1WaypointPublisher::SendWaypointsTimerCallback()[m[K’:
+[5.193s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:187:42:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&[m[K’
+[5.194s]   187 |      ReadWaypointsFromCSV(csv_file_[1], [01;31m[Kwaypoints_[m[K);
+[5.194s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[5.195s]       |                                         [01;31m[K|[m[K
+[5.195s]       |                                         [01;31m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K
+[5.195s] 
+[5.196s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+[5.196s]   109 | [01;36m[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_[m[K)
+[5.197s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.197s] 
+[5.197s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:205:42:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&[m[K’
+[5.198s]   205 |      ReadWaypointsFromCSV(csv_file_[2], [01;31m[Kwaypoints_[m[K);
+[5.198s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[5.199s]       |                                         [01;31m[K|[m[K
+[5.199s]       |                                         [01;31m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K
+[5.199s] 
+[5.199s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+[5.200s]   109 | [01;36m[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_[m[K)
+[5.200s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.200s] 
+[5.201s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:243:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&[m[K’
+[5.201s]   243 |      ReadWaypointsFromCSV(csv_file_[3], [01;31m[Kwaypoints_[m[K);
+[5.201s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[5.202s]       |                                         [01;31m[K|[m[K
+[5.202s]       |                                         [01;31m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K
+[5.202s] 
+[5.203s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+[5.203s]   109 | [01;36m[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_[m[K)
+[5.203s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.204s] 
+[5.204s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:247:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&[m[K’
+[5.204s]   247 |      ReadWaypointsFromCSV(csv_file_[4], [01;31m[Kwaypoints_[m[K);
+[5.204s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[5.205s]       |                                         [01;31m[K|[m[K
+[5.205s]       |                                         [01;31m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K
+[5.205s] 
+[5.206s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+[5.206s]   109 | [01;36m[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_[m[K)
+[5.206s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.207s] 
+[5.207s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:251:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&[m[K’
+[5.207s]   251 |      ReadWaypointsFromCSV(csv_file_[5], [01;31m[Kwaypoints_[m[K);
+[5.207s]       |                                         [01;31m[K^~~~~~~~~~[m[K
+[5.208s]       |                                         [01;31m[K|[m[K
+[5.208s]       |                                         [01;31m[Kstd::vector<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> >, std::allocator<tsukutsuku2_msgs::msg::Waypoint_<std::allocator<void> > > >[m[K
+[5.208s] 
+[5.208s] [01m[K/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/src/d1_waypoint_manager.cpp:109:118:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid D1WaypointPublisher::ReadWaypointsFromCSV(std::string&, std::vector<tsukutsuku2_msgs::msg::Waypoints_<std::allocator<void> > >&)[m[K’
+[5.209s]   109 | [01;36m[Kctor<tsukutsuku2_msgs::msg::Waypoints>& waypoints_[m[K)
+[5.209s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.209s] 
+[14.212s] gmake[2]: *** [CMakeFiles/d1_waypoint_manager.dir/build.make:76: CMakeFiles/d1_waypoint_manager.dir/src/d1_waypoint_manager.cpp.o] エラー 1
+[14.212s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/d1_waypoint_manager.dir/all] エラー 2
+[14.213s] gmake: *** [Makefile:146: all] エラー 2
+[14.215s] Invoked command in '/home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yamaguchi-a/turtlebot3_ws/src/d1_waypoint_manager/build/d1_waypoint_manager -- -j8 -l8
